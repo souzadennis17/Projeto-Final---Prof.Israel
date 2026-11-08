@@ -1,0 +1,326 @@
+:root {
+    color-scheme: light;
+    --color-text: #333333;
+    --color-background: #F0F0F0;
+    --color-header: #2C3E50;
+    --color-navigation: #34495E;
+    --color-surface: #F9F9F9;
+    --color-muted: #E8E8E8;
+    --color-accent: #315F7D;
+    --color-accent-dark: #23445A;
+    --color-highlight: #E5EFF5;
+    --color-highlight-border: #91B5CC;
+    --color-border: #D7DEE3;
+    --content-width: 1120px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    color: var(--color-text);
+    background-color: var(--color-background);
+    margin: 0;
+    font: 16px/1.7 Arial, sans-serif;
+}
+
+a {
+    color: var(--color-accent-dark);
+    text-underline-offset: 0.18em;
+}
+
+a:hover {
+    color: #163d2b;
+}
+
+a:focus-visible {
+    outline: 3px solid var(--color-highlight-border);
+    outline-offset: 3px;
+}
+
+body > header {
+    background-color: var(--color-header);
+    color: #FFFFFF;
+    padding: 22px 24px 18px;
+    text-align: center;
+}
+
+.site-name {
+    margin: 0;
+    font-size: 2rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+}
+
+.site-name a,
+body > header > p:not(.site-name) {
+    color: #FFFFFF;
+}
+
+.site-name a {
+    text-decoration: none;
+}
+
+body > header > p:not(.site-name) {
+    margin: 4px 0 16px;
+}
+
+nav {
+    background-color: var(--color-navigation);
+    margin: 0 -24px -18px;
+    padding: 8px 18px;
+}
+
+nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 4px 8px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav a {
+    display: block;
+    color: #FFFFFF;
+    border-radius: 6px;
+    padding: 7px 10px;
+    text-decoration: none;
+}
+
+nav a:hover,
+nav a[aria-current="page"] {
+    background-color: #486581;
+    color: #FFFFFF;
+}
+
+main {
+    width: min(var(--content-width), calc(100% - 32px));
+    min-height: 60vh;
+    margin: 28px auto;
+    padding: clamp(20px, 4vw, 42px);
+    background-color: var(--color-surface);
+    border: 1px solid var(--color-border);
+    border-radius: 12px;
+    box-shadow: 0 5px 18px rgb(34 54 68 / 8%);
+}
+
+main > p:first-child {
+    margin: 0 0 18px;
+    color: #52616B;
+    font-size: 0.92rem;
+}
+
+article > header {
+    margin-bottom: 22px;
+}
+
+h1,
+h2,
+h3 {
+    line-height: 1.25;
+}
+
+h1 {
+    margin: 0 0 10px;
+    color: var(--color-header);
+    font-size: clamp(1.8rem, 4vw, 2.5rem);
+}
+
+article > header > p {
+    margin: 0;
+    color: #52616B;
+    font-size: 1.08rem;
+}
+
+section {
+    margin: 24px 0;
+}
+
+section h2 {
+    color: var(--color-accent);
+    font-size: 1.45rem;
+}
+
+section h3 {
+    color: var(--color-header);
+}
+
+section p,
+article > p,
+li {
+    line-height: 1.8;
+}
+
+li + li {
+    margin-top: 5px;
+}
+
+figure {
+    margin: 24px 0;
+    padding: 10px;
+    overflow: hidden;
+    background-color: #FFFFFF;
+    border: 1px solid var(--color-border);
+    border-radius: 10px;
+}
+
+figure img {
+    display: block;
+    width: 100%;
+    max-height: 520px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+figcaption {
+    padding: 10px 4px 2px;
+    color: #52616B;
+    font-size: 0.9rem;
+}
+
+article > section[aria-labelledby="fontes-pagina"],
+article > section[id="missao"] {
+    padding: 16px 20px;
+    background-color: var(--color-highlight);
+    border: 1px solid var(--color-highlight-border);
+    border-radius: 8px;
+}
+
+article > section[id^="ref-"],
+article > section[id="fontes-oficiais"] {
+    padding: 18px 20px;
+    background-color: #FFFFFF;
+    border: 1px solid var(--color-border);
+    border-radius: 8px;
+}
+
+article > p > a[href^="index.html"],
+article > p > a[href^="natureza.html"],
+article > p > a[href^="sustentabilidade.html"],
+article > p > a[href^="protecao.html"],
+article > p > a[href^="fauna-flora.html"] {
+    display: inline-block;
+    margin: 8px 0;
+    font-weight: 700;
+}
+
+body > footer {
+    background-color: var(--color-header);
+    color: #FFFFFF;
+    margin-top: 32px;
+    padding: 18px 20px;
+    text-align: center;
+}
+
+body > footer hr {
+    display: none;
+}
+
+body > footer p {
+    margin: 6px 0;
+}
+
+body > footer a {
+    color: #D6F5E3;
+}
+
+body > footer a:hover {
+    color: #FFFFFF;
+}
+
+@media (max-width: 640px) {
+    body {
+        font-size: 15px;
+    }
+
+    body > header {
+        padding: 18px 14px 14px;
+    }
+
+    .site-name {
+        font-size: 1.7rem;
+    }
+
+    nav {
+        margin: 0 -14px -14px;
+        padding: 8px;
+    }
+
+    nav ul {
+        gap: 2px;
+    }
+
+    nav a {
+        padding: 6px 8px;
+        font-size: 0.9rem;
+    }
+
+    main {
+        width: calc(100% - 20px);
+        margin: 14px auto;
+        padding: 20px 16px;
+        border-radius: 8px;
+    }
+
+    figure {
+        margin: 18px 0;
+        padding: 7px;
+    }
+}
+
+.nature-audio {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 14px 24px;
+    width: min(var(--content-width), calc(100% - 32px));
+    margin: 18px auto 0;
+    padding: 14px 20px;
+    background-color: var(--color-highlight);
+    border: 1px solid var(--color-highlight-border);
+    border-radius: 10px;
+}
+
+.nature-audio-copy {
+    flex: 1 1 280px;
+}
+
+.nature-audio h2 {
+    margin: 0 0 4px;
+    color: var(--color-accent);
+    font-size: 1.15rem;
+}
+
+.nature-audio p {
+    margin: 3px 0;
+    font-size: 0.92rem;
+}
+
+.nature-audio-credit {
+    font-size: 0.82rem !important;
+}
+
+.nature-audio audio {
+    width: min(100%, 360px);
+}
+
+@media (max-width: 640px) {
+    .nature-audio {
+        width: calc(100% - 20px);
+        margin-top: 12px;
+        padding: 14px;
+    }
+
+    .nature-audio audio {
+        width: 100%;
+    }
+}
