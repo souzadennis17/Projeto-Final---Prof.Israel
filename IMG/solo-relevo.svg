@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 440" role="img" aria-labelledby="title desc">
+  <title id="title">Solo e relevo</title>
+  <desc id="desc">Montanhas, camadas de solo e vegetação ilustram a relação entre relevo e terreno.</desc>
+  <defs><linearGradient id="sky" x2="0" y2="1"><stop stop-color="#9bd1e5"/><stop offset="1" stop-color="#e7efd4"/></linearGradient></defs>
+  <rect width="800" height="440" fill="url(#sky)"/>
+  <path d="M0 289 178 92l133 152 125-170 185 214 90-103 89 104v151H0Z" fill="#718a83"/>
+  <path d="m178 92 42 48-40-18-39 39Zm258-18 56 70-55-23-48 38Z" fill="#f1f0dc"/>
+  <path d="M0 300q145-34 310 0t260-2q117-30 230 0v48H0Z" fill="#7e9b55"/>
+  <path d="M0 348h800v92H0Z" fill="#9a6847"/><path d="M0 370q178-20 348 1t452-1v22q-196-17-395 1T0 392Z" fill="#c19060"/>
+  <path d="M0 411q167-17 336 1t464-1" fill="none" stroke="#76543e" stroke-width="9"/>
+  <g fill="#356d4b"><path d="m83 301 23-58 24 58h-14v42H97v-42Z"/><path d="m682 302 23-58 24 58h-14v42h-19v-42Z"/></g>
+</svg>

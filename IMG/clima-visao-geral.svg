@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 440" role="img" aria-labelledby="title desc">
+  <title id="title">Ilustração sobre clima e atmosfera</title>
+  <desc id="desc">Sol, nuvens, chuva e paisagem natural ilustram elementos que compõem o clima.</desc>
+  <defs><linearGradient id="sky" x2="0" y2="1"><stop stop-color="#78bdda"/><stop offset="1" stop-color="#e4f2dc"/></linearGradient></defs>
+  <rect width="800" height="440" fill="url(#sky)"/>
+  <circle cx="182" cy="127" r="57" fill="#ffd166"/>
+  <path d="M0 302 143 207l109 90 134-131 142 134 109-87 163 103v124H0Z" fill="#5a946b"/>
+  <path d="M0 350q158-46 301 0t275-2q111-34 224 3v89H0Z" fill="#367451"/>
+  <path d="M425 178h156a37 37 0 0 0 0-74 52 52 0 0 0-100-12 43 43 0 0 0-56 42 42 42 0 0 0 0 44Z" fill="#f8fbf8"/>
+  <g stroke="#4d9fba" stroke-width="7" stroke-linecap="round"><path d="m455 197-11 34m57-34-11 34m58-34-11 34"/></g>
+  <g fill="#f8fbf8"><circle cx="674" cy="105" r="25"/><circle cx="710" cy="98" r="34"/><circle cx="748" cy="108" r="26"/></g>
+  <path d="M651 126h112" stroke="#f8fbf8" stroke-width="28" stroke-linecap="round"/>
+</svg>

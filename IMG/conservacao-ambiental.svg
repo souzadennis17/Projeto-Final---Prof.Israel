@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 440" role="img" aria-labelledby="title desc">
+  <title id="title">Conservação ambiental</title>
+  <desc id="desc">Mãos protegendo uma muda diante de uma paisagem de floresta e montanhas.</desc>
+  <defs><linearGradient id="sky" x2="0" y2="1"><stop stop-color="#a3d8e2"/><stop offset="1" stop-color="#e5efce"/></linearGradient></defs>
+  <rect width="800" height="440" fill="url(#sky)"/>
+  <path d="M0 274 139 163l103 112 142-144 149 148 104-96 163 96v165H0Z" fill="#679675"/>
+  <path d="M0 328q153-45 304 2t265-1q120-39 231 1v110H0Z" fill="#3c7855"/>
+  <g fill="#225c43"><path d="m95 304 32-80 33 80h-20v68h-25v-68Z"/><path d="m680 302 32-80 33 80h-20v68h-25v-68Z"/></g>
+  <path d="M400 354V225m0 76-55-39m55 19 56-46" fill="none" stroke="#74563d" stroke-width="13" stroke-linecap="round"/>
+  <g fill="#65a85e"><ellipse cx="336" cy="252" rx="47" ry="24" transform="rotate(24 336 252)"/><ellipse cx="466" cy="236" rx="48" ry="24" transform="rotate(-27 466 236)"/><ellipse cx="399" cy="211" rx="28" ry="42"/></g>
+  <path d="M244 381q64-75 151-50 87-25 162 50l-25 31H271Z" fill="#d49a69"/>
+  <path d="M257 405q70-52 138-35 78-18 150 35" fill="none" stroke="#b77d56" stroke-width="17" stroke-linecap="round"/>
+  <path d="M400 329q-21-19-40-4 3 28 40 40 38-12 40-40-20-15-40 4Z" fill="#e96b57"/>
+</svg>

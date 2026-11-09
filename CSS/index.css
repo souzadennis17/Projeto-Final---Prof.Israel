@@ -80,6 +80,7 @@ nav {
 nav ul {
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
     justify-content: center;
     gap: 4px 8px;
     margin: 0;
@@ -88,7 +89,9 @@ nav ul {
 }
 
 nav a {
-    display: block;
+    display: flex;
+    align-items: center;
+    line-height: 1.5;
     color: #FFFFFF;
     border-radius: 6px;
     padding: 7px 10px;
@@ -159,7 +162,7 @@ li {
     line-height: 1.8;
 }
 
-li + li {
+main li + li {
     margin-top: 5px;
 }
 

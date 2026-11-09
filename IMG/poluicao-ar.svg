@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 440" role="img" aria-labelledby="title desc">
+  <title id="title">Poluição do ar</title>
+  <desc id="desc">Ilustração de uma cidade e fontes de fumaça contrastando com árvores e ar limpo.</desc>
+  <defs><linearGradient id="sky" x2="0" y2="1"><stop stop-color="#b8d5dd"/><stop offset="1" stop-color="#e9e9d8"/></linearGradient></defs>
+  <rect width="800" height="440" fill="url(#sky)"/><circle cx="116" cy="104" r="48" fill="#f3c86a"/>
+  <path d="M0 323h800v117H0Z" fill="#536b68"/>
+  <g fill="#6f8584"><path d="M108 229h91v94h-91Zm111-66h97v160h-97Zm116 44h86v116h-86Zm105-86h104v202H440Zm123 72h78v130h-78Zm95-37h92v167h-92Z"/></g>
+  <g fill="#899a97"><path d="M233 164h53v15h-53Zm230-42h58v16h-58Z"/></g>
+  <g fill="#8a8981" opacity=".78"><circle cx="473" cy="75" r="30"/><circle cx="508" cy="57" r="42"/><circle cx="547" cy="74" r="34"/><circle cx="260" cy="106" r="25"/><circle cx="289" cy="92" r="33"/></g>
+  <g fill="#407851"><path d="m42 322 27-66 28 66h-16v45H58v-45Z"/><path d="m734 322 27-66 28 66h-16v45h-23v-45Z"/></g>
+  <path d="M0 367q140-19 282 0t270 0q123-17 248 0" fill="none" stroke="#a9b592" stroke-width="8"/>
+</svg>

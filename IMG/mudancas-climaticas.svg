@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 440" role="img" aria-labelledby="title desc">
+  <title id="title">Mudanças climáticas</title>
+  <desc id="desc">Planeta sob calor intenso, com termômetro, nuvens e paisagem que combina áreas verdes e secas.</desc>
+  <defs><linearGradient id="sky" x2="0" y2="1"><stop stop-color="#f2bc82"/><stop offset="1" stop-color="#f2e1b4"/></linearGradient></defs>
+  <rect width="800" height="440" fill="url(#sky)"/>
+  <circle cx="650" cy="93" r="52" fill="#ed865e"/>
+  <path d="M0 278 148 169l116 109 141-139 135 141 113-90 147 91v159H0Z" fill="#9b9862"/>
+  <path d="M0 329q144-45 282 1t276-1q126-41 242 1v110H0Z" fill="#668158"/>
+  <path d="M0 384q160-28 307 2t264-2q113-26 229 1v55H0Z" fill="#ae8858"/>
+  <g transform="translate(113 111)"><rect x="0" y="0" width="46" height="139" rx="23" fill="#fff5df" stroke="#915d50" stroke-width="8"/><path d="M23 30v110" stroke="#d85e4a" stroke-width="14" stroke-linecap="round"/><circle cx="23" cy="140" r="22" fill="#d85e4a"/><path d="M55 32h19m-19 28h13m-13 28h19" stroke="#915d50" stroke-width="6" stroke-linecap="round"/></g>
+  <g fill="#f3f5e8"><circle cx="389" cy="126" r="24"/><circle cx="425" cy="115" r="36"/><circle cx="464" cy="130" r="27"/></g>
+  <path d="M375 147h99" stroke="#f3f5e8" stroke-width="27" stroke-linecap="round"/>
+  <g stroke="#c66b51" stroke-width="6" stroke-linecap="round"><path d="m407 165-9 24m48-24-9 24"/></g>
+</svg>

@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 440" role="img" aria-labelledby="title desc">
+  <title id="title">Ilustração de clima equatorial</title>
+  <desc id="desc">Floresta densa, chuva frequente e rio em uma paisagem quente e úmida.</desc>
+  <defs>
+    <linearGradient id="sky" x2="0" y2="1"><stop stop-color="#8bd3df"/><stop offset="1" stop-color="#d9f1d2"/></linearGradient>
+    <linearGradient id="river" x2="0" y2="1"><stop stop-color="#51b8c5"/><stop offset="1" stop-color="#147c91"/></linearGradient>
+  </defs>
+  <rect width="800" height="440" fill="url(#sky)"/>
+  <circle cx="650" cy="92" r="44" fill="#ffd166"/>
+  <path d="M0 248 125 156l95 84 126-119 106 108 127-96 111 111 110-71v267H0Z" fill="#438b63"/>
+  <path d="M0 296 130 208l107 82 122-120 128 111 111-78 102 89v148H0Z" fill="#246d55"/>
+  <path d="M0 343q115-31 216 0t194 0q94-31 195 0t195 0v97H0Z" fill="#174f46"/>
+  <path d="M285 440q43-82 145-112 73-22 164 0 73 18 206 112Z" fill="url(#river)"/>
+  <g fill="#14533d">
+    <path d="m75 270 42-105 43 105h-22v99H96v-99Z"/><path d="m184 286 36-92 38 92h-20v84h-35v-84Z"/>
+    <path d="m565 271 42-108 43 108h-22v99h-42v-99Z"/><path d="m680 290 35-90 38 90h-20v81h-35v-81Z"/>
+  </g>
+  <g stroke="#e8ffff" stroke-width="5" stroke-linecap="round" opacity=".8">
+    <path d="m326 118-13 30m42-42-13 30m44-20-13 30m250-18-13 30m42-43-13 30"/>
+  </g>
+</svg>

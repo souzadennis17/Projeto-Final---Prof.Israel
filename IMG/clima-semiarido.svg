@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 440" role="img" aria-labelledby="title desc">
+  <title id="title">Ilustração de clima semiárido</title>
+  <desc id="desc">Paisagem seca da Caatinga com mandacarus, arbustos resistentes e céu ensolarado.</desc>
+  <defs><linearGradient id="sky" x2="0" y2="1"><stop stop-color="#f5bd75"/><stop offset="1" stop-color="#f7e0a2"/></linearGradient></defs>
+  <rect width="800" height="440" fill="url(#sky)"/>
+  <circle cx="631" cy="105" r="58" fill="#ff9e54"/>
+  <path d="M0 284 140 175l111 106 147-145 148 147 104-99 150 102v154H0Z" fill="#c77c52"/>
+  <path d="M0 326q159-37 310 5t260-2q113-35 230 1v110H0Z" fill="#bb7445"/>
+  <path d="M0 380q160-29 320 5t250 0q115-24 230-2v57H0Z" fill="#9e613c"/>
+  <g fill="#47744a" stroke="#47744a" stroke-width="16" stroke-linecap="round">
+    <path d="M191 360V247m0 65-32-14m32-25 29-19M562 384V255m0 82-33-18m33-27 31-20"/>
+  </g>
+  <g fill="none" stroke="#7ea65c" stroke-width="9" stroke-linecap="round">
+    <path d="M190 263v-31m-32 84v-33m62 9v-33M562 272v-34m-33 91v-34m64 18v-34"/>
+  </g>
+  <g fill="#47744a"><circle cx="92" cy="358" r="11"/><circle cx="109" cy="353" r="13"/><circle cx="124" cy="360" r="10"/><circle cx="690" cy="375" r="12"/><circle cx="709" cy="368" r="14"/><circle cx="727" cy="376" r="10"/></g>
+</svg>

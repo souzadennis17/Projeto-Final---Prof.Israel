@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 440" role="img" aria-labelledby="title desc">
+  <title id="title">Ilustração de clima subtropical</title>
+  <desc id="desc">Campos verdes e araucárias sob nuvens, representando uma paisagem do Sul do Brasil.</desc>
+  <defs><linearGradient id="sky" x2="0" y2="1"><stop stop-color="#9bc9df"/><stop offset="1" stop-color="#e7f0dd"/></linearGradient></defs>
+  <rect width="800" height="440" fill="url(#sky)"/>
+  <path d="M0 278 144 150l117 125 133-158 151 161 124-117 131 114v165H0Z" fill="#6b8990"/>
+  <path d="M0 306q154-49 290 0t270-5q123-42 240 3v136H0Z" fill="#65875c"/>
+  <path d="M0 360q179-37 335 0t245 0q112-28 220 0v80H0Z" fill="#426d4e"/>
+  <g fill="#315947">
+    <path d="m124 307 44-137 45 137h-29v74h-32v-74Z"/><path d="m168 184-26 35h52Z"/><path d="m558 318 39-122 41 122h-26v71h-29v-71Z"/><path d="m598 210-24 33h48Z"/>
+    <path d="m665 333 31-98 33 98h-21v58h-24v-58Z"/><path d="m696 249-19 27h39Z"/>
+  </g>
+  <path d="M408 122h112a30 30 0 0 0 0-60 42 42 0 0 0-80-10 35 35 0 0 0-32 70Z" fill="#f8faf8"/>
+  <g stroke="#78a9c2" stroke-width="5" stroke-linecap="round"><path d="m438 136-9 23m40-23-9 23m41-23-9 23"/></g>
+  <path d="M55 410q92-35 178 0m18 0q82-27 154 0" fill="none" stroke="#9bb878" stroke-width="5"/>
+</svg>

@@ -159,7 +159,7 @@ li {
     line-height: 1.8;
 }
 
-li + li {
+main li + li {
     margin-top: 5px;
 }
 
@@ -311,6 +311,25 @@ body > footer a:hover {
 
 .nature-audio audio {
     width: min(100%, 360px);
+}
+
+.climate-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 280px), 1fr));
+    gap: 16px;
+}
+
+.climate-gallery h2,
+.climate-gallery > p {
+    grid-column: 1 / -1;
+}
+
+.climate-gallery figure {
+    margin: 0;
+}
+
+.climate-gallery img {
+    aspect-ratio: 16 / 9;
 }
 
 @media (max-width: 640px) {

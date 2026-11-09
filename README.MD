@@ -78,6 +78,7 @@ O projeto foi desenvolvido utilizando HTML5, CSS3 e JavaScript, com os arquivos 
 - As folhas de estilos CSS ficam na pasta css/, com arquivos externos organizados de acordo com suas respectivas páginas.
 - Os arquivos JavaScript ficam na pasta js/, podendo ser compartilhados entre páginas ou utilizados especificamente conforme a necessidade.
 - As imagens utilizadas localmente ficam armazenadas na pasta img/.
+- A pasta img/ também contém ilustrações educativas locais para os climas brasileiros, energia renovável, poluição, conservação e outros temas.
 - O áudio ambiente fica armazenado na pasta audio/.
 
 Os arquivos locais podem ser acessados sem conexão com a internet, desde que seus caminhos estejam configurados corretamente. Entretanto, links externos, imagens carregadas diretamente de outros servidores e referências institucionais dependem de conexão.

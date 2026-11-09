@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 440" role="img" aria-labelledby="title desc">
+  <title id="title">Poluição da água</title>
+  <desc id="desc">Rio com resíduos próximos à margem, junto a uma área verde que representa a importância da proteção dos cursos d'água.</desc>
+  <defs><linearGradient id="sky" x2="0" y2="1"><stop stop-color="#94cbe0"/><stop offset="1" stop-color="#eaf0d2"/></linearGradient><linearGradient id="water" x2="0" y2="1"><stop stop-color="#56a8b7"/><stop offset="1" stop-color="#256f82"/></linearGradient></defs>
+  <rect width="800" height="440" fill="url(#sky)"/>
+  <path d="M0 230q145-82 276 2t267-2q131-82 257 0v210H0Z" fill="#55875d"/>
+  <path d="M0 305q156-53 282-1t250 0q139-56 268 1v135H0Z" fill="url(#water)"/>
+  <path d="M0 360q140-23 275 0t256 0q142-21 269 0" fill="none" stroke="#a4d5d4" stroke-width="9" opacity=".8"/>
+  <g fill="#eef1de" stroke="#74837b" stroke-width="4"><path d="m170 288 48 5-7 54-48-5Z"/><path d="m600 302 31-9 20 39-33 11Z"/></g>
+  <g fill="#d38b45" stroke="#755536" stroke-width="3"><path d="M375 335h58l-6 28h-46Z"/><path d="m411 325 14-21 16 6-7 25Z"/></g>
+  <g fill="#225c43"><path d="m70 253 33-80 34 80h-20v57H90v-57Z"/><path d="m688 260 32-76 33 76h-19v56h-27v-56Z"/></g>
+</svg>

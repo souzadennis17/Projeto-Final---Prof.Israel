@@ -159,7 +159,7 @@ li {
     line-height: 1.8;
 }
 
-li + li {
+main li + li {
     margin-top: 5px;
 }
 

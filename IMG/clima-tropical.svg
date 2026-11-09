@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 440" role="img" aria-labelledby="title desc">
+  <title id="title">Ilustração de clima tropical</title>
+  <desc id="desc">Campo de Cerrado com árvores espaçadas, sol forte e nuvens de chuva ao longe.</desc>
+  <defs><linearGradient id="sky" x2="0" y2="1"><stop stop-color="#83c8e8"/><stop offset="1" stop-color="#f8dfa0"/></linearGradient></defs>
+  <rect width="800" height="440" fill="url(#sky)"/>
+  <circle cx="620" cy="106" r="54" fill="#ffd166"/>
+  <path d="M0 275q160-85 310 0t290-3q108-50 200 7v161H0Z" fill="#b9a44f"/>
+  <path d="M0 328q142-51 260 0t260-5q142-54 280 3v114H0Z" fill="#72894b"/>
+  <g fill="#315c3f">
+    <path d="M135 302V183h19v119Z"/><circle cx="145" cy="172" r="48"/><circle cx="109" cy="188" r="30"/><circle cx="180" cy="193" r="32"/>
+    <path d="M365 320V213h17v107Z"/><circle cx="374" cy="200" r="40"/><circle cx="345" cy="211" r="26"/><circle cx="404" cy="216" r="27"/>
+    <path d="M687 300V185h18v115Z"/><circle cx="696" cy="172" r="46"/><circle cx="661" cy="187" r="29"/><circle cx="730" cy="192" r="31"/>
+  </g>
+  <path d="M485 170h94a27 27 0 0 0 0-54 39 39 0 0 0-72-9 32 32 0 0 0-22 63Z" fill="#f3f7f4"/>
+  <g stroke="#5b9ab3" stroke-width="5" stroke-linecap="round"><path d="m505 184-8 22m36-22-8 22m36-22-8 22"/></g>
+  <g fill="#d9c26e"><path d="m40 363 8-38 8 38Zm48 21 9-44 9 44Zm205-12 8-39 9 39Zm382 4 9-42 9 42Z"/></g>
+</svg>
