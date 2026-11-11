@@ -6,6 +6,8 @@
   <link rel="stylesheet" href="../css/curiosidades.css">
   <meta name="description" content="A natureza oferece fenômenos fascinantes que ajudam a entender como os sistemas vivos e físicos funcionam.">
   <title>Curiosidades ambientais | EcoVerse</title>
+  <link rel="stylesheet" href="../CSS/voltar-ao-topo.css">
+  <link rel="stylesheet" href="../CSS/interacoes-educativas.css">
 </head>
 <body>
   <header>
@@ -49,6 +51,8 @@
 
     <section id="fatos">
       <h2>Você sabia?</h2>
+      <button class="sortear-curiosidade" type="button" data-sortear-curiosidade hidden>Sortear uma curiosidade</button>
+      <p class="curiosidade-sorteada" data-curiosidade-sorteada role="status" aria-live="polite"></p>
       
       <ul><li>Fungos e bactérias participam da decomposição e da reciclagem de nutrientes.</li><li>Áreas úmidas podem armazenar água e oferecer habitats para muitas espécies.</li><li>A biodiversidade inclui microrganismos, não apenas animais e plantas visíveis.</li><li>O solo é um ambiente vivo, formado por minerais, matéria orgânica, água, ar e organismos.</li></ul>
       
@@ -74,5 +78,7 @@
     <p>Conteúdo educativo. Consulte fontes oficiais para informações técnicas e atualizadas.</p>
     <p><a href="fontes.html">Fontes e referências</a> | <a href="index.html">Voltar ao início</a></p>
   </footer>
+  <script src="../JS/voltar-ao-topo.js" defer></script>
+  <script src="../JS/curiosidade-aleatoria.js" defer></script>
 </body>
 </html>

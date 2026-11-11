@@ -6,6 +6,8 @@
   <link rel="stylesheet" href="../css/glossario.css">
   <meta name="description" content="Este glossário reúne termos comuns usados em conteúdos sobre meio ambiente e sustentabilidade.">
   <title>Glossário ambiental | EcoVerse</title>
+  <link rel="stylesheet" href="../CSS/voltar-ao-topo.css">
+  <link rel="stylesheet" href="../CSS/interacoes-educativas.css">
 </head>
 <body>
   <header>
@@ -49,6 +51,11 @@
 
     <section id="termos">
       <h2>Termos essenciais</h2>
+      <label class="filtro-conteudo">
+        Buscar um termo
+        <input type="search" data-filtro-lista placeholder="Ex.: biodiversidade">
+      </label>
+      <p class="filtro-status" data-status-filtro role="status" aria-live="polite"></p>
       
       <ul><li>Biodiversidade: variedade de vida em diferentes níveis.</li><li>Bioma: grande conjunto de comunidades e ambientes com características ecológicas relacionadas.</li><li>Ecossistema: organismos e componentes físicos que interagem em uma área.</li><li>Espécie nativa: espécie que ocorre naturalmente em determinada região.</li><li>Espécie exótica invasora: espécie introduzida fora de sua área natural que causa impactos e se estabelece ou se espalha.</li><li>Sustentabilidade: busca por equilíbrio entre dimensões ambientais, sociais e econômicas ao longo do tempo.</li><li>Restauração ecológica: processo de auxiliar a recuperação de ecossistemas degradados.</li></ul>
       
@@ -68,5 +75,7 @@
     <p>Conteúdo educativo. Consulte fontes oficiais para informações técnicas e atualizadas.</p>
     <p><a href="fontes.html">Fontes e referências</a> | <a href="index.html">Voltar ao início</a></p>
   </footer>
+  <script src="../JS/voltar-ao-topo.js" defer></script>
+  <script src="../JS/filtro-conteudo.js" defer></script>
 </body>
 </html>

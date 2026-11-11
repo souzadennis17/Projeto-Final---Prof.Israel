@@ -6,6 +6,8 @@
   <link rel="stylesheet" href="../css/perguntas-frequentes.css">
   <meta name="description" content="Respostas introdutórias para dúvidas comuns sobre preservação ambiental.">
   <title>Perguntas frequentes | EcoVerse</title>
+  <link rel="stylesheet" href="../CSS/voltar-ao-topo.css">
+  <link rel="stylesheet" href="../CSS/interacoes-educativas.css">
 </head>
 <body>
   <header>
@@ -49,6 +51,11 @@
 
     <section id="faq">
       <h2>Perguntas e respostas</h2>
+      <label class="filtro-conteudo">
+        Buscar uma pergunta ou assunto
+        <input type="search" data-filtro-lista placeholder="Ex.: reciclagem">
+      </label>
+      <p class="filtro-status" data-status-filtro role="status" aria-live="polite"></p>
       
       <ul><li>Por que separar resíduos? Para facilitar a recuperação de materiais quando há coleta e destinação adequadas.</li><li>Toda embalagem é reciclável? Não. A aceitação depende do material e da infraestrutura local.</li><li>Plantar árvores sempre ajuda? O plantio deve ser adequado ao ecossistema; espécies erradas ou locais inadequados podem causar danos.</li><li>O que fazer ao encontrar um animal silvestre ferido? Mantenha distância e procure orientação de órgãos ambientais ou serviços de fauna competentes.</li><li>Onde confirmar informações ambientais? Consulte órgãos públicos, instituições científicas e publicações com autoria e data.</li></ul>
       
@@ -68,5 +75,7 @@
     <p>Conteúdo educativo. Consulte fontes oficiais para informações técnicas e atualizadas.</p>
     <p><a href="fontes.html">Fontes e referências</a> | <a href="index.html">Voltar ao início</a></p>
   </footer>
+  <script src="../JS/voltar-ao-topo.js" defer></script>
+  <script src="../JS/filtro-conteudo.js" defer></script>
 </body>
 </html>

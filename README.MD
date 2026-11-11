@@ -52,7 +52,9 @@ Entre os recursos previstos estão:
 - Navegação entre páginas por meio de menus e links internos.
 - Apresentação de conteúdos educativos sobre diferentes temas ambientais.
 - Galeria de imagens com identificação de autoria e licenças.
-- Recursos interativos implementados com JavaScript.
+- Botão para voltar suavemente ao topo da página, exibido após rolar o conteúdo.
+- Busca de termos no glossário e de assuntos nas perguntas frequentes.
+- Sorteio de uma curiosidade ambiental na página Curiosidades.
 - Reprodução opcional de áudio ambiente por meio de controles, sem reprodução automática.
 - Links externos para instituições e materiais de referência.
 
@@ -76,7 +78,7 @@ O projeto foi desenvolvido utilizando HTML5, CSS3 e JavaScript, com os arquivos 
 
 - As páginas HTML ficam armazenadas na pasta html/.
 - As folhas de estilos CSS ficam na pasta css/, com arquivos externos organizados de acordo com suas respectivas páginas.
-- Os arquivos JavaScript ficam na pasta js/, podendo ser compartilhados entre páginas ou utilizados especificamente conforme a necessidade.
+- Os arquivos JavaScript ficam na pasta JS/, podendo ser compartilhados entre páginas ou utilizados especificamente conforme a necessidade.
 - As imagens utilizadas localmente ficam armazenadas na pasta img/.
 - A pasta img/ também contém ilustrações educativas locais para os climas brasileiros, energia renovável, poluição, conservação e outros temas.
 - O áudio ambiente fica armazenado na pasta audio/.
@@ -99,9 +101,14 @@ A estrutura do projeto está organizada da seguinte maneira:
 - **html/:** contém todas as páginas HTML do site.
 - **html/index.html:** página inicial e apresentação do EcoVerse.
 - **css/:** contém as folhas de estilos externas, organizadas de acordo com as páginas HTML.
-- **js/:** contém os arquivos JavaScript responsáveis pelas funcionalidades interativas.
+- **JS/:** contém scripts compartilhados pelas páginas, como o botão de voltar ao topo.
+- **CSS/voltar-ao-topo.css:** estiliza o botão de voltar ao topo.
+- **JS/filtro-conteudo.js:** filtra termos no glossário e tópicos nas perguntas frequentes.
+- **JS/curiosidade-aleatoria.js:** sorteia fatos na página Curiosidades.
+- **CSS/interacoes-educativas.css:** estiliza os filtros e o sorteio de curiosidades.
 - **img/:** armazena as imagens locais utilizadas nas páginas e na galeria.
 - **audio/:** contém os arquivos de áudio utilizados no projeto.
+- **VIDEO/:** contém o vídeo educativo `natureza.mp4`, utilizado na página Aprenda.
 - **html/natureza.html:** apresenta informações gerais sobre a natureza.
 - **html/sustentabilidade.html:** aborda práticas e conceitos de sustentabilidade.
 - **html/poluicao.html:** apresenta os principais tipos de poluição, suas causas e consequências.

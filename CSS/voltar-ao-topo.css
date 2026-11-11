@@ -1,0 +1,26 @@
+.voltar-ao-topo {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    z-index: 1000;
+    padding: 10px 14px;
+    color: #FFFFFF;
+    background-color: #2C3E50;
+    border: 0;
+    border-radius: 6px;
+    font: 700 1rem Arial, sans-serif;
+    cursor: pointer;
+}
+
+.voltar-ao-topo:hover {
+    background-color: #34495E;
+}
+
+.voltar-ao-topo:focus-visible {
+    outline: 3px solid #66509A;
+    outline-offset: 3px;
+}
+
+.voltar-ao-topo[hidden] {
+    display: none;
+}
